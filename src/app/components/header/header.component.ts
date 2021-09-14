@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'Task Tracker';
+  title: string = 'Tasks & Map';
   showAddTask: boolean = false;
   subscription: Subscription;
 
@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit(): void {}
-  
+
    ngOnDestroy() {
      // Unsubscribe to ensure no memory leaks
      this.subscription.unsubscribe();
