@@ -3,13 +3,14 @@
 A fork based on the Angular Crash Course 2021 (see below).
 
 ## Tasks module
-This component was already existing
+This component was already existing within the Crash Course
+
 ![Tasks](assets/img/tasks.png)
 
 ## Map module
 This component has been added with Leaflet
-![Map](assets/img/map.png)
 
+![Map](assets/img/map.png)
 
 # Angular Crash Course 2021 (Task Tracker App)
 
